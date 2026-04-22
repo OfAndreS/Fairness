@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-74 | Variable: LoanDate
+- ID: CRED-74 | Variable: ContractEndDate
+- ID: CRED-74 | Variable: FirstPaymentDate
+- ID: CRED-74 | Variable: MaturityDate_Original
+- ID: CRED-74 | Variable: MaturityDate_Last
+- ID: CRED-74 | Variable: ApplicationSignedHour
+- ID: CRED-74 | Variable: ApplicationSignedWeekday
+- ID: CRED-74 | Variable: VerificationType
+- ID: CRED-74 | Variable: LanguageCode
+- ID: CRED-74 | Variable: Age
+- ID: CRED-74 | Variable: DateOfBirth
+- ID: CRED-74 | Variable: Gender
+- ID: CRED-74 | Variable: Country
+- ID: CRED-74 | Variable: AppliedAmount
+- ID: CRED-74 | Variable: Amount
+- ID: CRED-74 | Variable: Interest
+- ID: CRED-74 | Variable: LoanDuration
+- ID: CRED-74 | Variable: MonthlyPayment
+- ID: CRED-74 | Variable: County
+- ID: CRED-74 | Variable: City
+- ID: CRED-74 | Variable: UseOfLoan
+- ID: CRED-74 | Variable: Education
+- ID: CRED-74 | Variable: MaritalStatus
+- ID: CRED-74 | Variable: NrOfDependants
+- ID: CRED-74 | Variable: EmploymentStatus
+- ID: CRED-74 | Variable: EmploymentDurationCurrentEmployer
+- ID: CRED-74 | Variable: EmploymentPosition
+- ID: CRED-74 | Variable: WorkExperience
+- ID: CRED-74 | Variable: OccupationArea
+- ID: CRED-74 | Variable: HomeOwnershipType
+- ID: CRED-74 | Variable: IncomeFromPrincipalEmployer
+- ID: CRED-74 | Variable: IncomeFromPension
+- ID: CRED-74 | Variable: IncomeFromFamilyAllowance
+- ID: CRED-74 | Variable: IncomeFromSocialWelfare
+- ID: CRED-74 | Variable: IncomeFromLeavePay
+- ID: CRED-74 | Variable: IncomeFromChildSupport
+- ID: CRED-74 | Variable: IncomeOther
+- ID: CRED-74 | Variable: IncomeTotal
+- ID: CRED-74 | Variable: ExistingLiabilities
+- ID: CRED-74 | Variable: LiabilitiesTotal
+- ID: CRED-74 | Variable: RefinanceLiabilities
+- ID: CRED-74 | Variable: DebtToIncome
+- ID: CRED-74 | Variable: FreeCash
+- ID: CRED-74 | Variable: MonthlyPaymentDay
+- ID: CRED-74 | Variable: ActiveScheduleFirstPaymentReached
+- ID: CRED-74 | Variable: PlannedPrincipalTillDate
+- ID: CRED-74 | Variable: PlannedInterestTillDate
+- ID: CRED-74 | Variable: LastPaymentOn
+- ID: CRED-74 | Variable: CurrentDebtDaysPrimary
+- ID: CRED-74 | Variable: DebtOccuredOn
+- ID: CRED-74 | Variable: CurrentDebtDaysSecondary
+- ID: CRED-74 | Variable: DebtOccuredOnForSecondary
+- ID: CRED-74 | Variable: ExpectedLoss
+- ID: CRED-74 | Variable: LossGivenDefault
+- ID: CRED-74 | Variable: ExpectedReturn
+- ID: CRED-74 | Variable: ProbabilityOfDefault
+- ID: CRED-74 | Variable: DefaultDate
+- ID: CRED-74 | Variable: PrincipalOverdueBySchedule
+- ID: CRED-74 | Variable: PlannedPrincipalPostDefault
+- ID: CRED-74 | Variable: PlannedInterestPostDefault
+- ID: CRED-74 | Variable: EAD1
+- ID: CRED-74 | Variable: EAD2
+- ID: CRED-74 | Variable: PrincipalRecovery
+- ID: CRED-74 | Variable: InterestRecovery
+- ID: CRED-74 | Variable: RecoveryStage
+- ID: CRED-74 | Variable: StageActiveSince
+- ID: CRED-74 | Variable: ModelVersion
+- ID: CRED-74 | Variable: Rating
+- ID: CRED-74 | Variable: EL_V0
+- ID: CRED-74 | Variable: Rating_V0
+- ID: CRED-74 | Variable: EL_V1
+- ID: CRED-74 | Variable: Rating_V1
+- ID: CRED-74 | Variable: Rating_V2
+- ID: CRED-74 | Variable: Status
+- ID: CRED-74 | Variable: Restructured
+- ID: CRED-74 | Variable: ActiveLateCategory
+- ID: CRED-74 | Variable: WorseLateCategory
+- ID: CRED-74 | Variable: CreditScoreEsMicroL
+- ID: CRED-74 | Variable: CreditScoreEsEquifaxRisk
+- ID: CRED-74 | Variable: CreditScoreFiAsiakasTietoRiskGrade
+- ID: CRED-74 | Variable: CreditScoreEeMini
+- ID: CRED-74 | Variable: PrincipalPaymentsMade
+- ID: CRED-74 | Variable: InterestAndPenaltyPaymentsMade
+- ID: CRED-74 | Variable: PrincipalWriteOffs
+- ID: CRED-74 | Variable: InterestAndPenaltyWriteOffs
+- ID: CRED-74 | Variable: PrincipalBalance
+- ID: CRED-74 | Variable: InterestAndPenaltyBalance
+- ID: CRED-74 | Variable: NoOfPreviousLoansBeforeLoan
+- ID: CRED-74 | Variable: AmountOfPreviousLoansBeforeLoan
+- ID: CRED-74 | Variable: PreviousRepaymentsBeforeLoan
+- ID: CRED-74 | Variable: PreviousEarlyRepaymentsBefoleLoan
+- ID: CRED-74 | Variable: PreviousEarlyRepaymentsCountBeforeLoan
+- ID: CRED-74 | Variable: GracePeriodStart
+- ID: CRED-74 | Variable: GracePeriodEnd
+- ID: CRED-74 | Variable: NextPaymentDate
+- ID: CRED-74 | Variable: NextPaymentNr
+- ID: CRED-74 | Variable: NrOfScheduledPayments
+- ID: CRED-74 | Variable: ReScheduledOn
+- ID: CRED-74 | Variable: PrincipalDebtServicingCost
+- ID: CRED-74 | Variable: InterestAndPenaltyDebtServicingCost

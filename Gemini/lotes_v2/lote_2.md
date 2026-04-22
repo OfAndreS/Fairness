@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-032 | Variable: debt_ratio
+- ID: CRED-032 | Variable: monthly_inc
+- ID: CRED-032 | Variable: open_credit
+- ID: CRED-032 | Variable: late_90
+- ID: CRED-032 | Variable: real_estate
+- ID: CRED-032 | Variable: late_60_89
+- ID: CRED-032 | Variable: dependents
+- ID: CRED-032 | Variable: dlq_2yrs
+- ID: CRED-033 | Variable: ListingKey
+- ID: CRED-033 | Variable: ListingNumber
+- ID: CRED-033 | Variable: ListingCreationDate
+- ID: CRED-033 | Variable: CreditGrade
+- ID: CRED-033 | Variable: Term
+- ID: CRED-033 | Variable: LoanStatus
+- ID: CRED-033 | Variable: ClosedDate
+- ID: CRED-033 | Variable: BorrowerAPR
+- ID: CRED-033 | Variable: BorrowerRate
+- ID: CRED-033 | Variable: LenderYield
+- ID: CRED-033 | Variable: EstimatedEffectiveYield
+- ID: CRED-033 | Variable: EstimatedLoss
+- ID: CRED-033 | Variable: EstimatedReturn
+- ID: CRED-033 | Variable: ProsperRating (numeric)
+- ID: CRED-033 | Variable: ProsperRating (Alpha)
+- ID: CRED-033 | Variable: ProsperScore
+- ID: CRED-033 | Variable: ListingCategory (numeric)
+- ID: CRED-033 | Variable: BorrowerState
+- ID: CRED-033 | Variable: Occupation
+- ID: CRED-033 | Variable: EmploymentStatus
+- ID: CRED-033 | Variable: EmploymentStatusDuration
+- ID: CRED-033 | Variable: IsBorrowerHomeowner
+- ID: CRED-033 | Variable: CurrentlyInGroup
+- ID: CRED-033 | Variable: GroupKey
+- ID: CRED-033 | Variable: DateCreditPulled
+- ID: CRED-033 | Variable: CreditScoreRangeLower
+- ID: CRED-033 | Variable: CreditScoreRangeUpper
+- ID: CRED-033 | Variable: FirstRecordedCreditLine
+- ID: CRED-033 | Variable: CurrentCreditLines
+- ID: CRED-033 | Variable: OpenCreditLines
+- ID: CRED-033 | Variable: TotalCreditLinespast7years
+- ID: CRED-033 | Variable: OpenRevolvingAccounts
+- ID: CRED-033 | Variable: OpenRevolvingMonthlyPayment
+- ID: CRED-033 | Variable: InquiriesLast6Months
+- ID: CRED-033 | Variable: TotalInquiries
+- ID: CRED-033 | Variable: CurrentDelinquencies
+- ID: CRED-033 | Variable: AmountDelinquent
+- ID: CRED-033 | Variable: DelinquenciesLast7Years
+- ID: CRED-033 | Variable: PublicRecordsLast10Years
+- ID: CRED-033 | Variable: PublicRecordsLast12Months
+- ID: CRED-033 | Variable: RevolvingCreditBalance
+- ID: CRED-033 | Variable: BankcardUtilization
+- ID: CRED-033 | Variable: AvailableBankcardCredit
+- ID: CRED-033 | Variable: TotalTrades
+- ID: CRED-033 | Variable: TradesNeverDelinquent (percentage)
+- ID: CRED-033 | Variable: TradesOpenedLast6Months
+- ID: CRED-033 | Variable: DebtToIncomeRatio
+- ID: CRED-033 | Variable: IncomeRange
+- ID: CRED-033 | Variable: IncomeVerifiable
+- ID: CRED-033 | Variable: StatedMonthlyIncome
+- ID: CRED-033 | Variable: LoanKey
+- ID: CRED-033 | Variable: TotalProsperLoans
+- ID: CRED-033 | Variable: TotalProsperPaymentsBilled
+- ID: CRED-033 | Variable: OnTimeProsperPayments
+- ID: CRED-033 | Variable: ProsperPaymentsLessThanOneMonthLate
+- ID: CRED-033 | Variable: ProsperPaymentsOneMonthPlusLate
+- ID: CRED-033 | Variable: ProsperPrincipalBorrowed
+- ID: CRED-033 | Variable: ProsperPrincipalOutstanding
+- ID: CRED-033 | Variable: ScorexChangeAtTimeOfListing
+- ID: CRED-033 | Variable: LoanCurrentDaysDelinquent
+- ID: CRED-033 | Variable: LoanFirstDefaultedCycleNumber
+- ID: CRED-033 | Variable: LoanMonthsSinceOrigination
+- ID: CRED-033 | Variable: LoanNumber
+- ID: CRED-033 | Variable: LoanOriginalAmount
+- ID: CRED-033 | Variable: LoanOriginationDate
+- ID: CRED-033 | Variable: LoanOriginationQuarter
+- ID: CRED-033 | Variable: MemberKey
+- ID: CRED-033 | Variable: MonthlyLoanPayment
+- ID: CRED-033 | Variable: LP_CustomerPayments
+- ID: CRED-033 | Variable: LP_CustomerPrincipalPayments
+- ID: CRED-033 | Variable: LP_InterestandFees
+- ID: CRED-033 | Variable: LP_ServiceFees
+- ID: CRED-033 | Variable: LP_CollectionFees
+- ID: CRED-033 | Variable: LP_GrossPrincipalLoss
+- ID: CRED-033 | Variable: LP_NetPrincipalLoss
+- ID: CRED-033 | Variable: LP_NonPrincipalRecoverypayments
+- ID: CRED-033 | Variable: PercentFunded
+- ID: CRED-033 | Variable: Recommendations
+- ID: CRED-033 | Variable: InvestmentFromFriendsCount
+- ID: CRED-033 | Variable: InvestmentFromFriendsAmount
+- ID: CRED-033 | Variable: Investors
+- ID: CRED-034 | Variable: Rating
+- ID: CRED-034 | Variable: Name
+- ID: CRED-034 | Variable: Symbol
+- ID: CRED-034 | Variable: Rating Agency Name
+- ID: CRED-034 | Variable: Date
+- ID: CRED-034 | Variable: Sector
+- ID: CRED-034 | Variable: currentRatio
+- ID: CRED-034 | Variable: quickRatio
+- ID: CRED-034 | Variable: cashRatio
+- ID: CRED-034 | Variable: daysOfSalesOutstanding
+- ID: CRED-034 | Variable: netProfitMargin

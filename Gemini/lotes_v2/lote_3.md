@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-034 | Variable: pretaxProfitMargin
+- ID: CRED-034 | Variable: grossProfitMargin
+- ID: CRED-034 | Variable: operatingProfitMargin
+- ID: CRED-034 | Variable: returnOnAssets
+- ID: CRED-034 | Variable: returnOnCapitalEmployed
+- ID: CRED-034 | Variable: returnOnEquity
+- ID: CRED-034 | Variable: assetTurnover
+- ID: CRED-034 | Variable: fixedAssetTurnover
+- ID: CRED-034 | Variable: debtEquityRatio
+- ID: CRED-034 | Variable: debtRatio
+- ID: CRED-034 | Variable: effectiveTaxRate
+- ID: CRED-034 | Variable: freeCashFlowOperatingCashFlowRatio
+- ID: CRED-034 | Variable: freeCashFlowPerShare
+- ID: CRED-034 | Variable: cashPerShare
+- ID: CRED-034 | Variable: companyEquityMultiplier
+- ID: CRED-034 | Variable: ebitPerRevenue
+- ID: CRED-034 | Variable: enterpriseValueMultiple
+- ID: CRED-034 | Variable: operatingCashFlowPerShare
+- ID: CRED-034 | Variable: operatingCashFlowSalesRatio
+- ID: CRED-034 | Variable: payablesTurnover
+- ID: CRED-035 | Variable: CustomerID
+- ID: CRED-035 | Variable: Name
+- ID: CRED-035 | Variable: Age
+- ID: CRED-035 | Variable: CreditScore
+- ID: CRED-035 | Variable: TransactionAmount
+- ID: CRED-035 | Variable: LoanAmount
+- ID: CRED-035 | Variable: LatePayments
+- ID: CRED-037 | Variable: LoanID
+- ID: CRED-037 | Variable: Age
+- ID: CRED-037 | Variable: Income
+- ID: CRED-037 | Variable: LoanAmount
+- ID: CRED-037 | Variable: CreditScore
+- ID: CRED-037 | Variable: MonthsEmployed
+- ID: CRED-037 | Variable: NumCreditLines
+- ID: CRED-037 | Variable: InterestRate
+- ID: CRED-037 | Variable: LoanTerm
+- ID: CRED-037 | Variable: DTIRatio
+- ID: CRED-037 | Variable: Education
+- ID: CRED-037 | Variable: EmploymentType
+- ID: CRED-037 | Variable: MaritalStatus
+- ID: CRED-037 | Variable: HasMortgage
+- ID: CRED-037 | Variable: HasDependents
+- ID: CRED-037 | Variable: LoanPurpose
+- ID: CRED-037 | Variable: HasCoSigner
+- ID: CRED-037 | Variable: Default
+- ID: CRED-039 | Variable: person_age
+- ID: CRED-039 | Variable: person_income
+- ID: CRED-039 | Variable: person_emp_length
+- ID: CRED-039 | Variable: loan_amnt
+- ID: CRED-039 | Variable: loan_int_rate
+- ID: CRED-039 | Variable: loan_status
+- ID: CRED-039 | Variable: loan_percent_income
+- ID: CRED-039 | Variable: cb_person_cred_hist_length
+- ID: CRED-039 | Variable: income_to_loan_ratio
+- ID: CRED-039 | Variable: credit_history_age_ratio
+- ID: CRED-039 | Variable: person_home_ownership_OTHER
+- ID: CRED-039 | Variable: person_home_ownership_OWN
+- ID: CRED-039 | Variable: person_home_ownership_RENT
+- ID: CRED-039 | Variable: loan_intent_EDUCATION
+- ID: CRED-039 | Variable: loan_intent_HOMEIMPROVEMENT
+- ID: CRED-039 | Variable: loan_intent_MEDICAL
+- ID: CRED-039 | Variable: loan_intent_PERSONAL
+- ID: CRED-039 | Variable: loan_intent_VENTURE
+- ID: CRED-039 | Variable: loan_grade_B
+- ID: CRED-039 | Variable: loan_grade_C
+- ID: CRED-039 | Variable: loan_grade_D
+- ID: CRED-039 | Variable: loan_grade_E
+- ID: CRED-039 | Variable: loan_grade_F
+- ID: CRED-039 | Variable: loan_grade_G
+- ID: CRED-039 | Variable: cb_person_default_on_file_Y
+- ID: CRED-040 | Variable: Id
+- ID: CRED-040 | Variable: income
+- ID: CRED-040 | Variable: age
+- ID: CRED-040 | Variable: experience
+- ID: CRED-040 | Variable: married
+- ID: CRED-040 | Variable: house_ownership
+- ID: CRED-040 | Variable: car_ownership
+- ID: CRED-040 | Variable: profession
+- ID: CRED-040 | Variable: city
+- ID: CRED-040 | Variable: state
+- ID: CRED-040 | Variable: current_job_years
+- ID: CRED-040 | Variable: current_house_years
+- ID: CRED-040 | Variable: risk_flag
+- ID: CRED-041 | Variable: person_age
+- ID: CRED-041 | Variable: person_gender
+- ID: CRED-041 | Variable: person_education
+- ID: CRED-041 | Variable: person_income
+- ID: CRED-041 | Variable: person_emp_exp
+- ID: CRED-041 | Variable: person_home_ownership
+- ID: CRED-041 | Variable: loan_amnt
+- ID: CRED-041 | Variable: loan_intent
+- ID: CRED-041 | Variable: loan_int_rate
+- ID: CRED-041 | Variable: loan_percent_income
+- ID: CRED-041 | Variable: cb_person_cred_hist_length
+- ID: CRED-041 | Variable: credit_score
+- ID: CRED-041 | Variable: previous_loan_defaults_on_file
+- ID: CRED-041 | Variable: loan_status
+- ID: CRED-042 | Variable: Age
+- ID: CRED-042 | Variable: Income
+- ID: CRED-042 | Variable: LoanAmount

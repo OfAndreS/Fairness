@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-053 | Variable: dti_joint
+- ID: CRED-053 | Variable: verification_status_joint
+- ID: CRED-053 | Variable: acc_now_delinq
+- ID: CRED-053 | Variable: tot_coll_amt
+- ID: CRED-053 | Variable: tot_cur_bal
+- ID: CRED-053 | Variable: open_acc_6m
+- ID: CRED-053 | Variable: open_il_6m
+- ID: CRED-053 | Variable: open_il_12m
+- ID: CRED-053 | Variable: open_il_24m
+- ID: CRED-053 | Variable: mths_since_rcnt_il
+- ID: CRED-053 | Variable: total_bal_il
+- ID: CRED-053 | Variable: il_util
+- ID: CRED-053 | Variable: open_rv_12m
+- ID: CRED-053 | Variable: open_rv_24m
+- ID: CRED-053 | Variable: max_bal_bc
+- ID: CRED-053 | Variable: all_util
+- ID: CRED-053 | Variable: total_rev_hi_lim
+- ID: CRED-053 | Variable: inq_fi
+- ID: CRED-053 | Variable: total_cu_tl
+- ID: CRED-053 | Variable: inq_last_12m
+- ID: CRED-053 | Variable: default_ind
+- ID: CRED-054 | Variable: name
+- ID: CRED-054 | Variable: city
+- ID: CRED-054 | Variable: income
+- ID: CRED-054 | Variable: credit_score
+- ID: CRED-054 | Variable: loan_amount
+- ID: CRED-054 | Variable: years_employed
+- ID: CRED-054 | Variable: points
+- ID: CRED-054 | Variable: loan_approved
+- ID: CRED-055 | Variable: loan_id
+- ID: CRED-055 | Variable: income
+- ID: CRED-055 | Variable: loan_amount
+- ID: CRED-055 | Variable: employment_status
+- ID: CRED-055 | Variable: default
+- ID: CRED-056 | Variable: Text
+- ID: CRED-056 | Variable: Income
+- ID: CRED-056 | Variable: Credit_Score
+- ID: CRED-056 | Variable: Loan_Amount
+- ID: CRED-056 | Variable: DTI_Ratio
+- ID: CRED-056 | Variable: Employment_Status
+- ID: CRED-056 | Variable: Approval
+- ID: CRED-058 | Variable: transaction_id
+- ID: CRED-058 | Variable: customer_id
+- ID: CRED-058 | Variable: merchant_id
+- ID: CRED-058 | Variable: timestamp
+- ID: CRED-058 | Variable: hour
+- ID: CRED-058 | Variable: day
+- ID: CRED-058 | Variable: weekday
+- ID: CRED-058 | Variable: is_weekend
+- ID: CRED-058 | Variable: is_night
+- ID: CRED-058 | Variable: customer_segment
+- ID: CRED-058 | Variable: avg_spend_profile
+- ID: CRED-058 | Variable: home_lat
+- ID: CRED-058 | Variable: home_lon
+- ID: CRED-058 | Variable: past_fraud_history
+- ID: CRED-058 | Variable: credit_score
+- ID: CRED-058 | Variable: account_age_days
+- ID: CRED-058 | Variable: merchant_category
+- ID: CRED-058 | Variable: merchant_risk_score
+- ID: CRED-058 | Variable: merchant_lat
+- ID: CRED-058 | Variable: merchant_lon
+- ID: CRED-058 | Variable: transaction_amount
+- ID: CRED-058 | Variable: txn_lat
+- ID: CRED-058 | Variable: txn_lon
+- ID: CRED-058 | Variable: distance_from_home_km
+- ID: CRED-058 | Variable: is_foreign
+- ID: CRED-058 | Variable: high_risk_country
+- ID: CRED-058 | Variable: device_type
+- ID: CRED-058 | Variable: channel
+- ID: CRED-058 | Variable: is_new_device
+- ID: CRED-058 | Variable: vpn_detected
+- ID: CRED-058 | Variable: tor_detected
+- ID: CRED-058 | Variable: device_id
+- ID: CRED-058 | Variable: transaction_velocity_1h
+- ID: CRED-058 | Variable: transaction_velocity_24h
+- ID: CRED-058 | Variable: transaction_velocity_7d
+- ID: CRED-058 | Variable: seconds_since_last_txn
+- ID: CRED-058 | Variable: avg_amount_30d
+- ID: CRED-058 | Variable: amount_deviation_ratio
+- ID: CRED-058 | Variable: merchant_ring_id
+- ID: CRED-058 | Variable: shared_device_count
+- ID: CRED-058 | Variable: customer_merchant_txn_count
+- ID: CRED-058 | Variable: label
+- ID: CRED-058 | Variable: fraud_type
+- ID: CRED-058 | Variable: financial_loss
+- ID: CRED-065 | Variable: UniqueID
+- ID: CRED-065 | Variable: disbursed_amount
+- ID: CRED-065 | Variable: asset_cost
+- ID: CRED-065 | Variable: ltv
+- ID: CRED-065 | Variable: branch_id
+- ID: CRED-065 | Variable: supplier_id
+- ID: CRED-065 | Variable: manufacturer_id
+- ID: CRED-065 | Variable: Current_pincode_ID
+- ID: CRED-065 | Variable: Date.of.Birth
+- ID: CRED-065 | Variable: Employment.Type
+- ID: CRED-065 | Variable: DisbursalDate
+- ID: CRED-065 | Variable: State_ID
+- ID: CRED-065 | Variable: Employee_code_ID
+- ID: CRED-065 | Variable: MobileNo_Avl_Flag
+- ID: CRED-065 | Variable: Aadhar_flag

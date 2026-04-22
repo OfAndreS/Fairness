@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-065 | Variable: PAN_flag
+- ID: CRED-065 | Variable: VoterID_flag
+- ID: CRED-065 | Variable: Driving_flag
+- ID: CRED-065 | Variable: Passport_flag
+- ID: CRED-065 | Variable: PERFORM_CNS.SCORE
+- ID: CRED-065 | Variable: PERFORM_CNS.SCORE.DESCRIPTION
+- ID: CRED-065 | Variable: PRI.NO.OF.ACCTS
+- ID: CRED-065 | Variable: PRI.ACTIVE.ACCTS
+- ID: CRED-065 | Variable: PRI.OVERDUE.ACCTS
+- ID: CRED-065 | Variable: PRI.CURRENT.BALANCE
+- ID: CRED-065 | Variable: PRI.SANCTIONED.AMOUNT
+- ID: CRED-065 | Variable: PRI.DISBURSED.AMOUNT
+- ID: CRED-065 | Variable: SEC.NO.OF.ACCTS
+- ID: CRED-065 | Variable: SEC.ACTIVE.ACCTS
+- ID: CRED-065 | Variable: SEC.OVERDUE.ACCTS
+- ID: CRED-065 | Variable: SEC.CURRENT.BALANCE
+- ID: CRED-065 | Variable: SEC.SANCTIONED.AMOUNT
+- ID: CRED-065 | Variable: SEC.DISBURSED.AMOUNT
+- ID: CRED-065 | Variable: PRIMARY.INSTAL.AMT
+- ID: CRED-065 | Variable: SEC.INSTAL.AMT
+- ID: CRED-065 | Variable: NEW.ACCTS.IN.LAST.SIX.MONTHS
+- ID: CRED-065 | Variable: DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS
+- ID: CRED-065 | Variable: AVERAGE.ACCT.AGE
+- ID: CRED-065 | Variable: CREDIT.HISTORY.LENGTH
+- ID: CRED-065 | Variable: NO.OF_INQUIRIES
+- ID: CRED-066 | Variable: Rating Agency
+- ID: CRED-066 | Variable: Corporation
+- ID: CRED-066 | Variable: Rating
+- ID: CRED-066 | Variable: Rating Date
+- ID: CRED-066 | Variable: CIK
+- ID: CRED-066 | Variable: Binary Rating
+- ID: CRED-066 | Variable: SIC Code
+- ID: CRED-066 | Variable: Sector
+- ID: CRED-066 | Variable: Ticker
+- ID: CRED-066 | Variable: Current Ratio
+- ID: CRED-066 | Variable: Long-term Debt / Capital
+- ID: CRED-066 | Variable: Debt/Equity Ratio
+- ID: CRED-066 | Variable: Gross Margin
+- ID: CRED-066 | Variable: Operating Margin
+- ID: CRED-066 | Variable: EBIT Margin
+- ID: CRED-066 | Variable: EBITDA Margin
+- ID: CRED-066 | Variable: Pre-Tax Profit Margin
+- ID: CRED-066 | Variable: Net Profit Margin
+- ID: CRED-066 | Variable: Asset Turnover
+- ID: CRED-066 | Variable: ROE - Return On Equity
+- ID: CRED-066 | Variable: Return On Tangible Equity
+- ID: CRED-066 | Variable: ROA - Return On Assets
+- ID: CRED-066 | Variable: ROI - Return On Investment
+- ID: CRED-066 | Variable: Operating Cash Flow Per Share
+- ID: CRED-066 | Variable: Free Cash Flow Per Share
+- ID: CRED-72 | Variable: RiskPerformance
+- ID: CRED-72 | Variable: ExternalRiskEstimate
+- ID: CRED-72 | Variable: MSinceOldestTradeOpen
+- ID: CRED-72 | Variable: MSinceMostRecentTradeOpen
+- ID: CRED-72 | Variable: AverageMInFile
+- ID: CRED-72 | Variable: NumSatisfactoryTrades
+- ID: CRED-72 | Variable: NumTrades60Ever2DerogPubRec
+- ID: CRED-72 | Variable: NumTrades90Ever2DerogPubRec
+- ID: CRED-72 | Variable: PercentTradesNeverDelq
+- ID: CRED-72 | Variable: MSinceMostRecentDelq
+- ID: CRED-72 | Variable: MaxDelq2PublicRecLast12M
+- ID: CRED-72 | Variable: MaxDelqEver
+- ID: CRED-72 | Variable: NumTotalTrades
+- ID: CRED-72 | Variable: NumTradesOpeninLast12M
+- ID: CRED-72 | Variable: PercentInstallTrades
+- ID: CRED-72 | Variable: MSinceMostRecentInqexcl7days
+- ID: CRED-72 | Variable: NumInqLast6M
+- ID: CRED-72 | Variable: NumInqLast6Mexcl7days
+- ID: CRED-72 | Variable: NetFractionRevolvingBurden
+- ID: CRED-72 | Variable: NetFractionInstallBurden
+- ID: CRED-72 | Variable: NumRevolvingTradesWBalance
+- ID: CRED-72 | Variable: NumInstallTradesWBalance
+- ID: CRED-72 | Variable: NumBank2NatlTradesWHighUtilization
+- ID: CRED-72 | Variable: PercentTradesWBalance
+- ID: CRED-73 | Variable: customer_id
+- ID: CRED-73 | Variable: monthly_income
+- ID: CRED-73 | Variable: loan_amount
+- ID: CRED-73 | Variable: credit_utilization_ratio
+- ID: CRED-73 | Variable: account_balance
+- ID: CRED-73 | Variable: monthly_transactions
+- ID: CRED-73 | Variable: avg_transaction_value
+- ID: CRED-73 | Variable: late_payment_count
+- ID: CRED-73 | Variable: repayment_consistency_score
+- ID: CRED-73 | Variable: previous_defaults
+- ID: CRED-73 | Variable: employment_years
+- ID: CRED-73 | Variable: dependents
+- ID: CRED-73 | Variable: account_age_months
+- ID: CRED-73 | Variable: recent_activity_score
+- ID: CRED-73 | Variable: credit_risk_class
+- ID: CRED-74 | Variable: ReportAsOfEOD
+- ID: CRED-74 | Variable: LoanId
+- ID: CRED-74 | Variable: LoanNumber
+- ID: CRED-74 | Variable: ListedOnUTC
+- ID: CRED-74 | Variable: BiddingStartedOn
+- ID: CRED-74 | Variable: BidsPortfolioManager
+- ID: CRED-74 | Variable: BidsApi
+- ID: CRED-74 | Variable: BidsManual
+- ID: CRED-74 | Variable: UserName
+- ID: CRED-74 | Variable: NewCreditCustomer
+- ID: CRED-74 | Variable: LoanApplicationStartedDate

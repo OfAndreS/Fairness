@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-050 | Variable: bank_sms_count
+- ID: CRED-050 | Variable: avg_distance_travelled_km
+- ID: CRED-050 | Variable: places_visited_weekly
+- ID: CRED-050 | Variable: calls_per_day
+- ID: CRED-050 | Variable: distinct_contacts_weekly
+- ID: CRED-050 | Variable: avg_call_duration_mins
+- ID: CRED-050 | Variable: social_media_pct
+- ID: CRED-050 | Variable: finance_app_time_pct
+- ID: CRED-050 | Variable: regular_sleep_pattern
+- ID: CRED-050 | Variable: battery_charging_regular
+- ID: CRED-050 | Variable: monthly_data_usage_gb
+- ID: CRED-050 | Variable: recent_app_installs
+- ID: CRED-050 | Variable: income_bracket
+- ID: CRED-050 | Variable: existing_debt_amount
+- ID: CRED-050 | Variable: education_level
+- ID: CRED-050 | Variable: cluster_id
+- ID: CRED-050 | Variable: loan_amount_requested
+- ID: CRED-050 | Variable: savings_worth
+- ID: CRED-050 | Variable: employment_type
+- ID: CRED-050 | Variable: loan_default
+- ID: CRED-051 | Variable: credit.policy
+- ID: CRED-051 | Variable: purpose
+- ID: CRED-051 | Variable: int.rate
+- ID: CRED-051 | Variable: installment
+- ID: CRED-051 | Variable: log.annual.inc
+- ID: CRED-051 | Variable: dti
+- ID: CRED-051 | Variable: fico
+- ID: CRED-051 | Variable: days.with.cr.line
+- ID: CRED-051 | Variable: revol.bal
+- ID: CRED-051 | Variable: revol.util
+- ID: CRED-051 | Variable: inq.last.6mths
+- ID: CRED-051 | Variable: delinq.2yrs
+- ID: CRED-051 | Variable: pub.rec
+- ID: CRED-051 | Variable: not.fully.paid
+- ID: CRED-052 | Variable: credit.policy
+- ID: CRED-052 | Variable: purpose
+- ID: CRED-052 | Variable: int.rate
+- ID: CRED-052 | Variable: installment
+- ID: CRED-052 | Variable: log.annual.inc
+- ID: CRED-052 | Variable: dti
+- ID: CRED-052 | Variable: fico
+- ID: CRED-052 | Variable: days.with.cr.line
+- ID: CRED-052 | Variable: revol.bal
+- ID: CRED-052 | Variable: revol.util
+- ID: CRED-052 | Variable: inq.last.6mths
+- ID: CRED-052 | Variable: delinq.2yrs
+- ID: CRED-052 | Variable: pub.rec
+- ID: CRED-052 | Variable: not.fully.paid
+- ID: CRED-053 | Variable: id
+- ID: CRED-053 | Variable: member_id
+- ID: CRED-053 | Variable: loan_amnt
+- ID: CRED-053 | Variable: funded_amnt
+- ID: CRED-053 | Variable: funded_amnt_inv
+- ID: CRED-053 | Variable: term
+- ID: CRED-053 | Variable: int_rate
+- ID: CRED-053 | Variable: installment
+- ID: CRED-053 | Variable: grade
+- ID: CRED-053 | Variable: sub_grade
+- ID: CRED-053 | Variable: emp_title
+- ID: CRED-053 | Variable: emp_length
+- ID: CRED-053 | Variable: home_ownership
+- ID: CRED-053 | Variable: annual_inc
+- ID: CRED-053 | Variable: verification_status
+- ID: CRED-053 | Variable: issue_d
+- ID: CRED-053 | Variable: pymnt_plan
+- ID: CRED-053 | Variable: desc
+- ID: CRED-053 | Variable: purpose
+- ID: CRED-053 | Variable: title
+- ID: CRED-053 | Variable: zip_code
+- ID: CRED-053 | Variable: addr_state
+- ID: CRED-053 | Variable: dti
+- ID: CRED-053 | Variable: delinq_2yrs
+- ID: CRED-053 | Variable: earliest_cr_line
+- ID: CRED-053 | Variable: inq_last_6mths
+- ID: CRED-053 | Variable: mths_since_last_delinq
+- ID: CRED-053 | Variable: mths_since_last_record
+- ID: CRED-053 | Variable: open_acc
+- ID: CRED-053 | Variable: pub_rec
+- ID: CRED-053 | Variable: revol_bal
+- ID: CRED-053 | Variable: revol_util
+- ID: CRED-053 | Variable: total_acc
+- ID: CRED-053 | Variable: initial_list_status
+- ID: CRED-053 | Variable: out_prncp
+- ID: CRED-053 | Variable: out_prncp_inv
+- ID: CRED-053 | Variable: total_pymnt
+- ID: CRED-053 | Variable: total_pymnt_inv
+- ID: CRED-053 | Variable: total_rec_prncp
+- ID: CRED-053 | Variable: total_rec_int
+- ID: CRED-053 | Variable: total_rec_late_fee
+- ID: CRED-053 | Variable: recoveries
+- ID: CRED-053 | Variable: collection_recovery_fee
+- ID: CRED-053 | Variable: last_pymnt_d
+- ID: CRED-053 | Variable: last_pymnt_amnt
+- ID: CRED-053 | Variable: next_pymnt_d
+- ID: CRED-053 | Variable: last_credit_pull_d
+- ID: CRED-053 | Variable: collections_12_mths_ex_med
+- ID: CRED-053 | Variable: mths_since_last_major_derog
+- ID: CRED-053 | Variable: policy_code
+- ID: CRED-053 | Variable: application_type
+- ID: CRED-053 | Variable: annual_inc_joint

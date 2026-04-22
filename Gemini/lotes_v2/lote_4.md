@@ -1,0 +1,123 @@
+
+You are a strict data engineering system. Classify the exact database variables provided into ONE of the permitted categories. You MUST strictly follow these exact definitions:
+
+PERMITTED CATEGORIES AND STRICT RULES:
+- SOCIOECONOMIC: Home ownership, number of children/dependents, household size, length of employment, employment status, occupation, family income, income, wealth, parents’ income, social class, education.
+- DEMOGRAPHIC: Age, gender, ethnicity, marital status, family life cycle. (CRITICAL: DO NOT put geographical locations here).
+- VALUES, ATTITUDES and BEHAVIORAL: Socio-motivation, attitudes toward debt, perceived financial wellbeing, religious practices, consumer behavior, spending pattern, attitudes toward money, risk-taking, compulsive buying, delay of gratification, financial knowledge.
+- INSTITUTIONAL and FINANCIAL: Number of debts, length of relationship with the bank, number of bank accounts, debt to income ratio, total financial assets, payment pattern, credit limit, existing credit commitments, credit score, number of credit cards, past credit history, loan amount, taking debt advice, loan duration, account balance, purpose of loan.
+- PERSONALITY: Self-control, emotional stability, intelligence, optimism, extraversion, impulsiveness.
+- SITUATIONAL: STRICTLY Adverse life events or life-altering events. (CRITICAL: DO NOT put standard dates, terms, or housing here).
+- EDUCATIONAL: Field of study, GPA (Grade Point Average), year at school. (General education level goes to SOCIOECONOMIC).
+- MACROECONOMIC: General economic indicators (inflation, GDP).
+- HEALTH-RELATED: Physical and mental health indicators.
+- ALTERNATIVE: Social network patterns, posting time, friends, daily calls, SMS patterns, disclosure of social media profile, and geographical locations (city, zipcode, region, country, IP).
+- UNCLASSIFIED: System IDs, gibberish, transaction IDs, passwords, hashes, pure system metadata.
+
+OUTPUT RULES:
+1. Return ONLY a JSON object.
+2. The keys MUST be the exact variable names provided.
+3. The values MUST be the exact permitted category strings.
+4. One key-value pair per variable.
+
+RAW VARIABLES TO CLASSIFY:
+- ID: CRED-042 | Variable: CreditScore
+- ID: CRED-042 | Variable: YearsExperience
+- ID: CRED-042 | Variable: Gender
+- ID: CRED-042 | Variable: Education
+- ID: CRED-042 | Variable: City
+- ID: CRED-042 | Variable: EmploymentType
+- ID: CRED-042 | Variable: LoanApproved
+- ID: CRED-043 | Variable: transaction_id
+- ID: CRED-043 | Variable: amount
+- ID: CRED-043 | Variable: transaction_hour
+- ID: CRED-043 | Variable: merchant_category
+- ID: CRED-043 | Variable: foreign_transaction
+- ID: CRED-043 | Variable: location_mismatch
+- ID: CRED-043 | Variable: device_trust_score
+- ID: CRED-043 | Variable: velocity_last_24h
+- ID: CRED-043 | Variable: cardholder_age
+- ID: CRED-043 | Variable: is_fraud
+- ID: CRED-044 | Variable: Customer ID
+- ID: CRED-044 | Variable: Name
+- ID: CRED-044 | Variable: Surname
+- ID: CRED-044 | Variable: Gender
+- ID: CRED-044 | Variable: Birthdate
+- ID: CRED-044 | Variable: Transaction Amount
+- ID: CRED-044 | Variable: Date
+- ID: CRED-044 | Variable: Merchant Name
+- ID: CRED-044 | Variable: Category
+- ID: CRED-045 | Variable: Loan_ID
+- ID: CRED-045 | Variable: loan_status
+- ID: CRED-045 | Variable: Principal
+- ID: CRED-045 | Variable: terms
+- ID: CRED-045 | Variable: effective_date
+- ID: CRED-045 | Variable: due_date
+- ID: CRED-045 | Variable: paid_off_time
+- ID: CRED-045 | Variable: past_due_days
+- ID: CRED-045 | Variable: age
+- ID: CRED-045 | Variable: education
+- ID: CRED-045 | Variable: Gender
+- ID: CRED-046 | Variable: transaction_id
+- ID: CRED-046 | Variable: timestamp
+- ID: CRED-046 | Variable: sender_account
+- ID: CRED-046 | Variable: receiver_account
+- ID: CRED-046 | Variable: amount
+- ID: CRED-046 | Variable: transaction_type
+- ID: CRED-046 | Variable: merchant_category
+- ID: CRED-046 | Variable: location
+- ID: CRED-046 | Variable: device_used
+- ID: CRED-046 | Variable: is_fraud
+- ID: CRED-046 | Variable: fraud_type
+- ID: CRED-046 | Variable: time_since_last_transaction
+- ID: CRED-046 | Variable: spending_deviation_score
+- ID: CRED-046 | Variable: velocity_score
+- ID: CRED-046 | Variable: geo_anomaly_score
+- ID: CRED-046 | Variable: payment_channel
+- ID: CRED-046 | Variable: ip_address
+- ID: CRED-046 | Variable: device_hash
+- ID: CRED-047 | Variable: TransactionID
+- ID: CRED-047 | Variable: AccountID
+- ID: CRED-047 | Variable: TransactionAmount
+- ID: CRED-047 | Variable: TransactionDate
+- ID: CRED-047 | Variable: TransactionType
+- ID: CRED-047 | Variable: Location
+- ID: CRED-047 | Variable: DeviceID
+- ID: CRED-047 | Variable: IP Address
+- ID: CRED-047 | Variable: MerchantID
+- ID: CRED-047 | Variable: Channel
+- ID: CRED-047 | Variable: CustomerAge
+- ID: CRED-047 | Variable: CustomerOccupation
+- ID: CRED-047 | Variable: TransactionDuration
+- ID: CRED-047 | Variable: LoginAttempts
+- ID: CRED-047 | Variable: AccountBalance
+- ID: CRED-047 | Variable: PreviousTransactionDate
+- ID: CRED-048 | Variable: organization
+- ID: CRED-048 | Variable: transaction_id
+- ID: CRED-048 | Variable: user_id
+- ID: CRED-048 | Variable: user_account_age_days
+- ID: CRED-048 | Variable: kyc_verified
+- ID: CRED-048 | Variable: payment_method
+- ID: CRED-048 | Variable: card_type
+- ID: CRED-048 | Variable: transaction_amount
+- ID: CRED-048 | Variable: currency
+- ID: CRED-048 | Variable: fee_amount
+- ID: CRED-048 | Variable: transaction_timestamp
+- ID: CRED-048 | Variable: day_of_week
+- ID: CRED-048 | Variable: city
+- ID: CRED-048 | Variable: country
+- ID: CRED-048 | Variable: device_type
+- ID: CRED-048 | Variable: operating_system
+- ID: CRED-048 | Variable: browser
+- ID: CRED-048 | Variable: merchant_category
+- ID: CRED-048 | Variable: transaction_type
+- ID: CRED-048 | Variable: otp_used
+- ID: CRED-048 | Variable: is_fraud
+- ID: CRED-048 | Variable: hour
+- ID: CRED-048 | Variable: is_night
+- ID: CRED-048 | Variable: time_diff
+- ID: CRED-050 | Variable: unique_apps_per_day
+- ID: CRED-050 | Variable: avg_daily_screen_time_hrs
+- ID: CRED-050 | Variable: financial_apps_installed
+- ID: CRED-050 | Variable: online_txn_count_last_30d
+- ID: CRED-050 | Variable: avg_txn_amount
