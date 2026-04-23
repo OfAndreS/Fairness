@@ -1,0 +1,897 @@
+id,URL,Col,Col_Standardized
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,status,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,duration,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,credit_history,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,purpose,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,amount,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,savings,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,employment_duration,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,installment_rate,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,personal_status_sex,DEMOGRAPHIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,other_debtors,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,present_residence,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,property,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,age,DEMOGRAPHIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,other_installment_plans,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,housing,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,number_credits,INSTITUTIONAL and FINANCIAL
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,job,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,people_liable,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,telephone,UNCLASSIFIED
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,foreign_worker,SOCIOECONOMIC
+CRED-002,https://www.kaggle.com/datasets/sid321axn/south-german-credit-updated,credit_risk,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,SeriousDlqin2yrs,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,RevolvingUtilizationOfUnsecuredLines,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,age,DEMOGRAPHIC
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberOfTime30-59DaysPastDueNotWorse,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,DebtRatio,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,MonthlyIncome,SOCIOECONOMIC
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberOfOpenCreditLinesAndLoans,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberOfTimes90DaysLate,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberRealEstateLoansOrLines,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberOfTime60-89DaysPastDueNotWorse,INSTITUTIONAL and FINANCIAL
+CRED-024,https://www.openml.org/search?type=data&id=45577&sort=runs&status=active,NumberOfDependents,SOCIOECONOMIC
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,person_age,DEMOGRAPHIC
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,person_income,SOCIOECONOMIC
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,person_home_ownership,SOCIOECONOMIC
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,person_emp_length,SOCIOECONOMIC
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_intent,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_grade,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_amnt,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_int_rate,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_status,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,loan_percent_income,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,cb_person_default_on_file,INSTITUTIONAL and FINANCIAL
+CRED-027,https://www.kaggle.com/datasets/laotse/credit-risk-dataset,cb_person_cred_hist_length,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,ID,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Income,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Car_Owned,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Bike_Owned,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Active_Loan,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,House_Own,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Child_Count,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Credit_Amount,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Loan_Annuity,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Accompany_Client,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Income_Type,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Education,EDUCATIONAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Marital_Status,DEMOGRAPHIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Gender,DEMOGRAPHIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Loan_Contract_Type,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Housing_Type,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Population_Region_Relative,MACROECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Age_Days,DEMOGRAPHIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Employed_Days,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Registration_Days,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,ID_Days,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Own_House_Age,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Mobile_Tag,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Homephone_Tag,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Workphone_Working,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Occupation,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Family_Members,SOCIOECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Cleint_City_Rating,MACROECONOMIC
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Application_Process_Day,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Application_Process_Hour,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Permanent_Match_Tag,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Client_Contact_Work_Tag,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Type_Organization,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Score_Source_1,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Score_Source_2,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Score_Source_3,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Social_Circle_Default,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Phone_Change,UNCLASSIFIED
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Credit_Bureau,INSTITUTIONAL and FINANCIAL
+CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Default,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,loan_id,UNCLASSIFIED
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, no_of_dependents,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, education,EDUCATIONAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, self_employed,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, income_annum,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_term,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, cibil_score,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, residential_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, commercial_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, luxury_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, bank_asset_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_status,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,rev_util,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,age,DEMOGRAPHIC
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,late_30_59,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,debt_ratio,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,monthly_inc,SOCIOECONOMIC
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,open_credit,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,late_90,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,real_estate,SOCIOECONOMIC
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,late_60_89,INSTITUTIONAL and FINANCIAL
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,dependents,SOCIOECONOMIC
+CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,dlq_2yrs,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ListingKey,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ListingNumber,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ListingCreationDate,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CreditGrade,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,Term,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanStatus,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ClosedDate,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,BorrowerAPR,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,BorrowerRate,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LenderYield,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,EstimatedEffectiveYield,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,EstimatedLoss,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,EstimatedReturn,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperRating (numeric),INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperRating (Alpha),INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperScore,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ListingCategory (numeric),UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,BorrowerState,ALTERNATIVE
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,Occupation,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,EmploymentStatus,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,EmploymentStatusDuration,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,IsBorrowerHomeowner,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CurrentlyInGroup,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,GroupKey,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,DateCreditPulled,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CreditScoreRangeLower,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CreditScoreRangeUpper,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,FirstRecordedCreditLine,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CurrentCreditLines,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,OpenCreditLines,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TotalCreditLinespast7years,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,OpenRevolvingAccounts,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,OpenRevolvingMonthlyPayment,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,InquiriesLast6Months,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TotalInquiries,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,CurrentDelinquencies,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,AmountDelinquent,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,DelinquenciesLast7Years,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,PublicRecordsLast10Years,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,PublicRecordsLast12Months,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,RevolvingCreditBalance,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,BankcardUtilization,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,AvailableBankcardCredit,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TotalTrades,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TradesNeverDelinquent (percentage),INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TradesOpenedLast6Months,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,DebtToIncomeRatio,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,IncomeRange,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,IncomeVerifiable,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,StatedMonthlyIncome,SOCIOECONOMIC
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanKey,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TotalProsperLoans,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,TotalProsperPaymentsBilled,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,OnTimeProsperPayments,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperPaymentsLessThanOneMonthLate,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperPaymentsOneMonthPlusLate,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperPrincipalBorrowed,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ProsperPrincipalOutstanding,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,ScorexChangeAtTimeOfListing,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanCurrentDaysDelinquent,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanFirstDefaultedCycleNumber,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanMonthsSinceOrigination,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanNumber,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanOriginalAmount,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanOriginationDate,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LoanOriginationQuarter,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,MemberKey,UNCLASSIFIED
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,MonthlyLoanPayment,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_CustomerPayments,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_CustomerPrincipalPayments,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_InterestandFees,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_ServiceFees,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_CollectionFees,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_GrossPrincipalLoss,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_NetPrincipalLoss,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,LP_NonPrincipalRecoverypayments,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,PercentFunded,INSTITUTIONAL and FINANCIAL
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,Recommendations,ALTERNATIVE
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,InvestmentFromFriendsCount,ALTERNATIVE
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,InvestmentFromFriendsAmount,ALTERNATIVE
+CRED-033,https://www.kaggle.com/datasets/nurudeenabdulsalaam/prosper-loan-dataset,Investors,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Rating,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Name,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Symbol,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Rating Agency Name,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Date,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,Sector,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,currentRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,quickRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,cashRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,daysOfSalesOutstanding,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,netProfitMargin,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,pretaxProfitMargin,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,grossProfitMargin,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,operatingProfitMargin,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,returnOnAssets,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,returnOnCapitalEmployed,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,returnOnEquity,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,assetTurnover,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,fixedAssetTurnover,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,debtEquityRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,debtRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,effectiveTaxRate,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,freeCashFlowOperatingCashFlowRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,freeCashFlowPerShare,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,cashPerShare,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,companyEquityMultiplier,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,ebitPerRevenue,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,enterpriseValueMultiple,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,operatingCashFlowPerShare,UNCLASSIFIED
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,operatingCashFlowSalesRatio,INSTITUTIONAL and FINANCIAL
+CRED-034,https://www.kaggle.com/datasets/agewerc/corporate-credit-rating,payablesTurnover,INSTITUTIONAL and FINANCIAL
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,CustomerID,UNCLASSIFIED
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,Name,UNCLASSIFIED
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,Age,DEMOGRAPHIC
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,CreditScore,INSTITUTIONAL and FINANCIAL
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,TransactionAmount,INSTITUTIONAL and FINANCIAL
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,LoanAmount,INSTITUTIONAL and FINANCIAL
+CRED-035,https://www.kaggle.com/datasets/youssefismail20/credit-and-smes-synth-data-credit-analysis,LatePayments,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,LoanID,UNCLASSIFIED
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,Age,DEMOGRAPHIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,Income,SOCIOECONOMIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,LoanAmount,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,CreditScore,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,MonthsEmployed,SOCIOECONOMIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,NumCreditLines,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,InterestRate,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,LoanTerm,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,DTIRatio,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,Education,SOCIOECONOMIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,EmploymentType,SOCIOECONOMIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,MaritalStatus,DEMOGRAPHIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,HasMortgage,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,HasDependents,SOCIOECONOMIC
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,LoanPurpose,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,HasCoSigner,INSTITUTIONAL and FINANCIAL
+CRED-037,https://www.kaggle.com/datasets/nikhil1e9/loan-default,Default,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_age,DEMOGRAPHIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_income,SOCIOECONOMIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_emp_length,SOCIOECONOMIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_amnt,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_int_rate,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_status,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_percent_income,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,cb_person_cred_hist_length,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,income_to_loan_ratio,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,credit_history_age_ratio,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_home_ownership_OTHER,SOCIOECONOMIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_home_ownership_OWN,SOCIOECONOMIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,person_home_ownership_RENT,SOCIOECONOMIC
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_intent_EDUCATION,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_intent_HOMEIMPROVEMENT,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_intent_MEDICAL,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_intent_PERSONAL,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_intent_VENTURE,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_B,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_C,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_D,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_E,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_F,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,loan_grade_G,INSTITUTIONAL and FINANCIAL
+CRED-039,https://www.kaggle.com/datasets/bornaetminan/advanced-credit-default-intelligence-dataset,cb_person_default_on_file_Y,INSTITUTIONAL and FINANCIAL
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,Id,UNCLASSIFIED
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,income,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,age,DEMOGRAPHIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,experience,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,married,DEMOGRAPHIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,house_ownership,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,car_ownership,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,profession,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,city,ALTERNATIVE
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,state,ALTERNATIVE
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,current_job_years,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,current_house_years,SOCIOECONOMIC
+CRED-040,https://www.kaggle.com/datasets/lavish619/consumer-loan-product-defaulters-dataset,risk_flag,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_age,DEMOGRAPHIC
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_gender,DEMOGRAPHIC
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_education,EDUCATIONAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_income,SOCIOECONOMIC
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_emp_exp,SOCIOECONOMIC
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,person_home_ownership,SOCIOECONOMIC
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,loan_amnt,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,loan_intent,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,loan_int_rate,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,loan_percent_income,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,cb_person_cred_hist_length,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,credit_score,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,previous_loan_defaults_on_file,INSTITUTIONAL and FINANCIAL
+CRED-041,https://www.kaggle.com/datasets/udaymalviya/bank-loan-data,loan_status,INSTITUTIONAL and FINANCIAL
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,Age,DEMOGRAPHIC
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,Income,SOCIOECONOMIC
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,LoanAmount,INSTITUTIONAL and FINANCIAL
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,CreditScore,INSTITUTIONAL and FINANCIAL
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,YearsExperience,SOCIOECONOMIC
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,Gender,DEMOGRAPHIC
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,Education,EDUCATIONAL
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,City,ALTERNATIVE
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,EmploymentType,SOCIOECONOMIC
+CRED-042,https://www.kaggle.com/datasets/algozee/credit-risk-and-loan-default-analysis-dataset,LoanApproved,INSTITUTIONAL and FINANCIAL
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,transaction_id,UNCLASSIFIED
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,amount,INSTITUTIONAL and FINANCIAL
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,transaction_hour,UNCLASSIFIED
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,merchant_category,INSTITUTIONAL and FINANCIAL
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,foreign_transaction,INSTITUTIONAL and FINANCIAL
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,location_mismatch,ALTERNATIVE
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,device_trust_score,ALTERNATIVE
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,velocity_last_24h,INSTITUTIONAL and FINANCIAL
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,cardholder_age,DEMOGRAPHIC
+CRED-043,https://www.kaggle.com/datasets/miadul/credit-card-fraud-detection-dataset,is_fraud,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Customer ID,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Name,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Surname,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Gender,DEMOGRAPHIC
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Birthdate,DEMOGRAPHIC
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Transaction Amount,INSTITUTIONAL and FINANCIAL
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Date,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Merchant Name,UNCLASSIFIED
+CRED-044,https://www.kaggle.com/datasets/rajatsurana979/comprehensive-credit-card-transactions-dataset,Category,UNCLASSIFIED
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,Loan_ID,UNCLASSIFIED
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,loan_status,INSTITUTIONAL and FINANCIAL
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,Principal,INSTITUTIONAL and FINANCIAL
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,terms,INSTITUTIONAL and FINANCIAL
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,effective_date,UNCLASSIFIED
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,due_date,UNCLASSIFIED
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,paid_off_time,INSTITUTIONAL and FINANCIAL
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,past_due_days,INSTITUTIONAL and FINANCIAL
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,age,DEMOGRAPHIC
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,education,SOCIOECONOMIC
+CRED-045,https://www.kaggle.com/datasets/zhijinzhai/loandata,Gender,DEMOGRAPHIC
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,transaction_id,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,timestamp,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,sender_account,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,receiver_account,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,amount,INSTITUTIONAL and FINANCIAL
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,transaction_type,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,merchant_category,INSTITUTIONAL and FINANCIAL
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,location,ALTERNATIVE
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,device_used,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,is_fraud,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,fraud_type,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,time_since_last_transaction,INSTITUTIONAL and FINANCIAL
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,spending_deviation_score,"VALUES, ATTITUDES and BEHAVIORAL"
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,velocity_score,INSTITUTIONAL and FINANCIAL
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,geo_anomaly_score,ALTERNATIVE
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,payment_channel,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,ip_address,UNCLASSIFIED
+CRED-046,https://www.kaggle.com/datasets/aryan208/financial-transactions-dataset-for-fraud-detection,device_hash,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,TransactionID,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,AccountID,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,TransactionAmount,INSTITUTIONAL and FINANCIAL
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,TransactionDate,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,TransactionType,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,Location,ALTERNATIVE
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,DeviceID,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,IP Address,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,MerchantID,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,Channel,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,CustomerAge,DEMOGRAPHIC
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,CustomerOccupation,SOCIOECONOMIC
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,TransactionDuration,INSTITUTIONAL and FINANCIAL
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,LoginAttempts,UNCLASSIFIED
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,AccountBalance,INSTITUTIONAL and FINANCIAL
+CRED-047,https://www.kaggle.com/datasets/valakhorasani/bank-transaction-dataset-for-fraud-detection,PreviousTransactionDate,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,organization,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,transaction_id,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,user_id,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,user_account_age_days,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,kyc_verified,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,payment_method,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,card_type,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,transaction_amount,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,currency,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,fee_amount,INSTITUTIONAL and FINANCIAL
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,transaction_timestamp,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,day_of_week,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,city,ALTERNATIVE
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,country,ALTERNATIVE
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,device_type,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,operating_system,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,browser,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,merchant_category,"VALUES, ATTITUDES and BEHAVIORAL"
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,transaction_type,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,otp_used,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,is_fraud,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,hour,UNCLASSIFIED
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,is_night,ALTERNATIVE
+CRED-048,https://www.kaggle.com/datasets/mdmahfuzsumon/large-scale-financial-fraud-dataset,time_diff,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,unique_apps_per_day,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,avg_daily_screen_time_hrs,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,financial_apps_installed,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,online_txn_count_last_30d,INSTITUTIONAL and FINANCIAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,avg_txn_amount,INSTITUTIONAL and FINANCIAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,bank_sms_count,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,avg_distance_travelled_km,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,places_visited_weekly,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,calls_per_day,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,distinct_contacts_weekly,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,avg_call_duration_mins,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,social_media_pct,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,finance_app_time_pct,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,regular_sleep_pattern,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,battery_charging_regular,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,monthly_data_usage_gb,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,recent_app_installs,ALTERNATIVE
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,income_bracket,SOCIOECONOMIC
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,existing_debt_amount,INSTITUTIONAL and FINANCIAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,education_level,EDUCATIONAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,cluster_id,UNCLASSIFIED
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,loan_amount_requested,INSTITUTIONAL and FINANCIAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,savings_worth,INSTITUTIONAL and FINANCIAL
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,employment_type,SOCIOECONOMIC
+CRED-050,https://www.kaggle.com/datasets/mastershomya/altcredit-predict-loan-default-from-mobile-data,loan_default,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,credit.policy,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,purpose,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,int.rate,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,installment,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,log.annual.inc,SOCIOECONOMIC
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,dti,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,fico,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,days.with.cr.line,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,revol.bal,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,revol.util,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,inq.last.6mths,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,delinq.2yrs,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,pub.rec,INSTITUTIONAL and FINANCIAL
+CRED-051,https://www.kaggle.com/datasets/himanshusinghal19/ragnarok-finance,not.fully.paid,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,credit.policy,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,purpose,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,int.rate,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,installment,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,log.annual.inc,SOCIOECONOMIC
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,dti,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,fico,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,days.with.cr.line,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,revol.bal,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,revol.util,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,inq.last.6mths,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,delinq.2yrs,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,pub.rec,INSTITUTIONAL and FINANCIAL
+CRED-052,https://www.kaggle.com/datasets/itssuru/loan-data,not.fully.paid,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,id,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,member_id,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,loan_amnt,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,funded_amnt,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,funded_amnt_inv,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,term,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,int_rate,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,installment,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,grade,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,sub_grade,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,emp_title,SOCIOECONOMIC
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,emp_length,SOCIOECONOMIC
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,home_ownership,SOCIOECONOMIC
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,annual_inc,SOCIOECONOMIC
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,verification_status,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,issue_d,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,pymnt_plan,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,desc,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,purpose,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,title,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,zip_code,ALTERNATIVE
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,addr_state,ALTERNATIVE
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,dti,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,delinq_2yrs,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,earliest_cr_line,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,inq_last_6mths,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,mths_since_last_delinq,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,mths_since_last_record,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_acc,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,pub_rec,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,revol_bal,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,revol_util,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_acc,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,initial_list_status,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,out_prncp,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,out_prncp_inv,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_pymnt,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_pymnt_inv,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_rec_prncp,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_rec_int,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_rec_late_fee,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,recoveries,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,collection_recovery_fee,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,last_pymnt_d,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,last_pymnt_amnt,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,next_pymnt_d,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,last_credit_pull_d,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,collections_12_mths_ex_med,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,mths_since_last_major_derog,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,policy_code,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,application_type,UNCLASSIFIED
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,annual_inc_joint,SOCIOECONOMIC
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,dti_joint,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,verification_status_joint,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,acc_now_delinq,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,tot_coll_amt,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,tot_cur_bal,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_acc_6m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_il_6m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_il_12m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_il_24m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,mths_since_rcnt_il,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_bal_il,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,il_util,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_rv_12m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,open_rv_24m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,max_bal_bc,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,all_util,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_rev_hi_lim,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,inq_fi,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,total_cu_tl,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,inq_last_12m,INSTITUTIONAL and FINANCIAL
+CRED-053,https://www.kaggle.com/datasets/rameshmehta/credit-risk-analysis,default_ind,INSTITUTIONAL and FINANCIAL
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,name,UNCLASSIFIED
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,city,ALTERNATIVE
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,income,SOCIOECONOMIC
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,credit_score,INSTITUTIONAL and FINANCIAL
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,years_employed,SOCIOECONOMIC
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,points,INSTITUTIONAL and FINANCIAL
+CRED-054,https://www.kaggle.com/datasets/anishdevedward/loan-approval-dataset,loan_approved,UNCLASSIFIED
+CRED-055,https://www.kaggle.com/datasets/sahideseker/loan-default-prediction-dataset,loan_id,UNCLASSIFIED
+CRED-055,https://www.kaggle.com/datasets/sahideseker/loan-default-prediction-dataset,income,SOCIOECONOMIC
+CRED-055,https://www.kaggle.com/datasets/sahideseker/loan-default-prediction-dataset,loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-055,https://www.kaggle.com/datasets/sahideseker/loan-default-prediction-dataset,employment_status,SOCIOECONOMIC
+CRED-055,https://www.kaggle.com/datasets/sahideseker/loan-default-prediction-dataset,default,INSTITUTIONAL and FINANCIAL
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Text,UNCLASSIFIED
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Income,SOCIOECONOMIC
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Credit_Score,INSTITUTIONAL and FINANCIAL
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Loan_Amount,INSTITUTIONAL and FINANCIAL
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,DTI_Ratio,INSTITUTIONAL and FINANCIAL
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Employment_Status,SOCIOECONOMIC
+CRED-056,https://www.kaggle.com/datasets/abhishekmishra08/loan-approval-datasets,Approval,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,transaction_id,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,customer_id,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_id,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,timestamp,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,hour,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,day,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,weekday,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,is_weekend,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,is_night,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,customer_segment,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,avg_spend_profile,"VALUES, ATTITUDES and BEHAVIORAL"
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,home_lat,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,home_lon,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,past_fraud_history,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,credit_score,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,account_age_days,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_category,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_risk_score,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_lat,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_lon,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,transaction_amount,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,txn_lat,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,txn_lon,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,distance_from_home_km,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,is_foreign,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,high_risk_country,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,device_type,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,channel,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,is_new_device,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,vpn_detected,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,tor_detected,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,device_id,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,transaction_velocity_1h,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,transaction_velocity_24h,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,transaction_velocity_7d,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,seconds_since_last_txn,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,avg_amount_30d,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,amount_deviation_ratio,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,merchant_ring_id,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,shared_device_count,ALTERNATIVE
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,customer_merchant_txn_count,INSTITUTIONAL and FINANCIAL
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,label,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,fraud_type,UNCLASSIFIED
+CRED-058,https://www.kaggle.com/datasets/mohamedasak/enterprise-fraud-detection-dataset,financial_loss,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,UniqueID,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,disbursed_amount,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,asset_cost,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,ltv,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,branch_id,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,supplier_id,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,manufacturer_id,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Current_pincode_ID,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Date.of.Birth,DEMOGRAPHIC
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Employment.Type,SOCIOECONOMIC
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,DisbursalDate,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,State_ID,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Employee_code_ID,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,MobileNo_Avl_Flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Aadhar_flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PAN_flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,VoterID_flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Driving_flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,Passport_flag,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PERFORM_CNS.SCORE,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PERFORM_CNS.SCORE.DESCRIPTION,UNCLASSIFIED
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.NO.OF.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.ACTIVE.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.OVERDUE.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.CURRENT.BALANCE,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.SANCTIONED.AMOUNT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRI.DISBURSED.AMOUNT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.NO.OF.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.ACTIVE.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.OVERDUE.ACCTS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.CURRENT.BALANCE,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.SANCTIONED.AMOUNT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.DISBURSED.AMOUNT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,PRIMARY.INSTAL.AMT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,SEC.INSTAL.AMT,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,NEW.ACCTS.IN.LAST.SIX.MONTHS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,AVERAGE.ACCT.AGE,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,CREDIT.HISTORY.LENGTH,INSTITUTIONAL and FINANCIAL
+CRED-065,https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction,NO.OF_INQUIRIES,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Rating Agency,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Corporation,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Rating,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Rating Date,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,CIK,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Binary Rating,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,SIC Code,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Sector,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Ticker,UNCLASSIFIED
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Current Ratio,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Long-term Debt / Capital,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Debt/Equity Ratio,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Gross Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Operating Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,EBIT Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,EBITDA Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Pre-Tax Profit Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Net Profit Margin,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Asset Turnover,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,ROE - Return On Equity,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Return On Tangible Equity,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,ROA - Return On Assets,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,ROI - Return On Investment,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Operating Cash Flow Per Share,INSTITUTIONAL and FINANCIAL
+CRED-066,https://www.kaggle.com/datasets/kirtandelwadia/corporate-credit-rating-with-financial-ratios,Free Cash Flow Per Share,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,RiskPerformance,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,ExternalRiskEstimate,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MSinceOldestTradeOpen,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MSinceMostRecentTradeOpen,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,AverageMInFile,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumSatisfactoryTrades,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumTrades60Ever2DerogPubRec,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumTrades90Ever2DerogPubRec,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,PercentTradesNeverDelq,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MSinceMostRecentDelq,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MaxDelq2PublicRecLast12M,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MaxDelqEver,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumTotalTrades,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumTradesOpeninLast12M,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,PercentInstallTrades,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,MSinceMostRecentInqexcl7days,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumInqLast6M,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumInqLast6Mexcl7days,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NetFractionRevolvingBurden,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NetFractionInstallBurden,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumRevolvingTradesWBalance,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumInstallTradesWBalance,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,NumBank2NatlTradesWHighUtilization,INSTITUTIONAL and FINANCIAL
+CRED-72,https://www.openml.org/d/45554,PercentTradesWBalance,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,customer_id,UNCLASSIFIED
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,monthly_income,SOCIOECONOMIC
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,credit_utilization_ratio,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,account_balance,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,monthly_transactions,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,avg_transaction_value,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,late_payment_count,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,repayment_consistency_score,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,previous_defaults,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,employment_years,SOCIOECONOMIC
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,dependents,SOCIOECONOMIC
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,account_age_months,INSTITUTIONAL and FINANCIAL
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,recent_activity_score,UNCLASSIFIED
+CRED-73,https://www.kaggle.com/datasets/zara2099/real-time-digital-credit-risk-dataset,credit_risk_class,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ReportAsOfEOD,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LoanId,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LoanNumber,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ListedOnUTC,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,BiddingStartedOn,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,BidsPortfolioManager,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,BidsApi,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,BidsManual,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,UserName,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NewCreditCustomer,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LoanApplicationStartedDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LoanDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ContractEndDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,FirstPaymentDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,MaturityDate_Original,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,MaturityDate_Last,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ApplicationSignedHour,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ApplicationSignedWeekday,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,VerificationType,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LanguageCode,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Age,DEMOGRAPHIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,DateOfBirth,DEMOGRAPHIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Gender,DEMOGRAPHIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Country,ALTERNATIVE
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,AppliedAmount,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Amount,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Interest,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LoanDuration,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,MonthlyPayment,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,County,ALTERNATIVE
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,City,ALTERNATIVE
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,UseOfLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Education,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,MaritalStatus,DEMOGRAPHIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NrOfDependants,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EmploymentStatus,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EmploymentDurationCurrentEmployer,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EmploymentPosition,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,WorkExperience,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,OccupationArea,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,HomeOwnershipType,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromPrincipalEmployer,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromPension,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromFamilyAllowance,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromSocialWelfare,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromLeavePay,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeFromChildSupport,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeOther,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,IncomeTotal,SOCIOECONOMIC
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ExistingLiabilities,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LiabilitiesTotal,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,RefinanceLiabilities,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,DebtToIncome,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,FreeCash,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,MonthlyPaymentDay,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ActiveScheduleFirstPaymentReached,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PlannedPrincipalTillDate,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PlannedInterestTillDate,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LastPaymentOn,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CurrentDebtDaysPrimary,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,DebtOccuredOn,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CurrentDebtDaysSecondary,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,DebtOccuredOnForSecondary,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ExpectedLoss,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,LossGivenDefault,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ExpectedReturn,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ProbabilityOfDefault,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,DefaultDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalOverdueBySchedule,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PlannedPrincipalPostDefault,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PlannedInterestPostDefault,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EAD1,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EAD2,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalRecovery,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,InterestRecovery,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,RecoveryStage,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,StageActiveSince,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ModelVersion,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Rating,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EL_V0,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Rating_V0,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,EL_V1,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Rating_V1,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Rating_V2,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Status,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,Restructured,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ActiveLateCategory,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,WorseLateCategory,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CreditScoreEsMicroL,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CreditScoreEsEquifaxRisk,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CreditScoreFiAsiakasTietoRiskGrade,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,CreditScoreEeMini,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalPaymentsMade,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,InterestAndPenaltyPaymentsMade,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalWriteOffs,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,InterestAndPenaltyWriteOffs,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalBalance,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,InterestAndPenaltyBalance,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NoOfPreviousLoansBeforeLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,AmountOfPreviousLoansBeforeLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PreviousRepaymentsBeforeLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PreviousEarlyRepaymentsBefoleLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PreviousEarlyRepaymentsCountBeforeLoan,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,GracePeriodStart,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,GracePeriodEnd,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NextPaymentDate,UNCLASSIFIED
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NextPaymentNr,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,NrOfScheduledPayments,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ReScheduledOn,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,PrincipalDebtServicingCost,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,InterestAndPenaltyDebtServicingCost,INSTITUTIONAL and FINANCIAL
+CRED-74,https://www.kaggle.com/datasets/sid321axn/bondora-peer-to-peer-lending-loan-data,ActiveLateLastPaymentCategory,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,step,UNCLASSIFIED
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,type,UNCLASSIFIED
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,amount,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,nameOrig,UNCLASSIFIED
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,oldbalanceOrg,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,newbalanceOrig,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,nameDest,UNCLASSIFIED
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,oldbalanceDest,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,newbalanceDest,INSTITUTIONAL and FINANCIAL
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,isFraud,UNCLASSIFIED
+CRED-75,https://www.kaggle.com/datasets/ealaxi/paysim1,isFlaggedFraud,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,ID,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Customer_ID,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Month,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Name,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Age,DEMOGRAPHIC
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,SSN,UNCLASSIFIED
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Occupation,SOCIOECONOMIC
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Annual_Income,SOCIOECONOMIC
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Monthly_Inhand_Salary,SOCIOECONOMIC
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Num_Bank_Accounts,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Num_Credit_Card,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Interest_Rate,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Num_of_Loan,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Type_of_Loan,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Delay_from_due_date,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Num_of_Delayed_Payment,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Changed_Credit_Limit,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Num_Credit_Inquiries,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Credit_Mix,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Outstanding_Debt,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Credit_Utilization_Ratio,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Credit_History_Age,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Payment_of_Min_Amount,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Total_EMI_per_month,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Amount_invested_monthly,INSTITUTIONAL and FINANCIAL
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Payment_Behaviour,"VALUES, ATTITUDES and BEHAVIORAL"
+CRED-76,https://www.kaggle.com/datasets/parisrohan/credit-score-classification,Monthly_Balance,INSTITUTIONAL and FINANCIAL
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,ip_region_mismatch,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,device_change_rate,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,application_frequency,INSTITUTIONAL and FINANCIAL
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,institution,UNCLASSIFIED
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,loan_type,INSTITUTIONAL and FINANCIAL
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,session_duration,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,geo_location_consistency,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,previous_defaults,INSTITUTIONAL and FINANCIAL
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,time_between_apps,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,browser_fingerprint_change,ALTERNATIVE
+CRED-77,https://www.kaggle.com/datasets/ahluwaliasaksham/loan-fraud-detection-dataset,fraudulent,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Cust_Num,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Payment_Method_description,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Document_No,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Amount,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Amount_Bins,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Clearing_doc,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Zipcode,ALTERNATIVE
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Region,ALTERNATIVE
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,City,ALTERNATIVE
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Customer_Name,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Age_Of_Customer_Months,DEMOGRAPHIC
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Age_Of_Customer_Year,DEMOGRAPHIC
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Customer_Age_Year_Bins,DEMOGRAPHIC
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Payment_Term,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Payment_Term_Bins,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Days_Overdue_Delay,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Delay_Bins,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Doc_Date,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Net_Due_Date,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Posting_Date,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Clearing_date,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,No_of_orders_by_customer,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Rank_of_order_by_customer,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Weekday_clearing,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Weekday_due,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Quarter_clearing,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,DelayFlag,INSTITUTIONAL and FINANCIAL
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Weekday_clearnum,UNCLASSIFIED
+CRED-78,https://www.kaggle.com/datasets/sonalisingh1411/accounts-receivable-and-payment-delay-analysis,Weekday_due.1,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Transaction_ID,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Customer_ID,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Transaction_Date,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Transaction_Time,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Customer_Age,DEMOGRAPHIC
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Customer_Loyalty_Tier,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Location,ALTERNATIVE
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Store_ID,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Product_SKU,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Product_Category,"VALUES, ATTITUDES and BEHAVIORAL"
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Purchase_Amount,INSTITUTIONAL and FINANCIAL
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Payment_Method,INSTITUTIONAL and FINANCIAL
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Device_Type,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,IP_Address,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Fraud_Flag,UNCLASSIFIED
+CRED-79,https://www.kaggle.com/datasets/pratyushpuri/payment-card-fraud-detection-with-ml-models-2025,Footfall_Count,UNCLASSIFIED
