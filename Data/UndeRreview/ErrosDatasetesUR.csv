@@ -1,0 +1,11 @@
+id,Dataset_Title,URL,Erro
+CRED-022,Home Credit Default Risk,https://www.kaggle.com/c/home-credit-default-risk,403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/DownloadDataFiles
+CRED-023,Lending Club Loan Data,https://www.kaggle.com/datasets/wordsforthewise/lending-club,[Errno 2] No such file or directory: '../Data/Buffer/accepted_2007_to_2018Q4.csv'
+CRED-025,IEEE-CIS Fraud Detection,https://www.kaggle.com/c/ieee-fraud-detection,403 Client Error: Forbidden for url: https://api.kaggle.com/v1/competitions.CompetitionApiService/DownloadDataFiles
+CRED-030,Home Equity Dataset (HMEQ),https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-038,Loan Approval Classification,https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-049,"Credit Risk: 50k loans, 10 sectors",https://www.kaggle.com/datasets/sergionefedov/credit-risk-dataset-50k-loans-10-sectors,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-057,Simulated Credit Card Trans.,https://www.kaggle.com/datasets/kartik2112/fraud-detection,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-059,Bank Account Fraud Dataset Suite,https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-064,Fraud detection 1M trans.,https://www.kaggle.com/datasets/sergionefedov/fraud-detection-1m-transactions-7-fraud-types/data,Dataset massivo/complexo. Processamento bloqueado para proteger a memória RAM.
+CRED-80,Finance Fraud and Loans Dataset (Synthetic),https://www.kaggle.com/datasets/testdatabox/finance-fraud-and-loans-dataset-testdatabox,[Errno 2] No such file or directory: '../Data/Buffer/account_statuses.csv'
