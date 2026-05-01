@@ -8,7 +8,7 @@ savings,savings_amount,INSTITUTIONAL and FINANCIAL
 employment_duration,total_work_experience_duration,SOCIOECONOMIC
 installment_rate,installment_rate,INSTITUTIONAL and FINANCIAL
 personal_status_sex,gender,DEMOGRAPHIC
-other_debtors,co_debtor_count,StandardizedTaxonomy
+other_debtors,co_debtor_count,INSTITUTIONAL and FINANCIAL
 present_residence,residential_stability,SOCIOECONOMIC
 property,asset_ownership,SOCIOECONOMIC
 age,age,DEMOGRAPHIC
