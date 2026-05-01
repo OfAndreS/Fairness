@@ -1,1 +1,0 @@
-/home/osandres/Documents/SyncDesk/NlpHpc/02MicroClassification.py
