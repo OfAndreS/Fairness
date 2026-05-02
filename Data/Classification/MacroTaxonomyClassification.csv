@@ -84,18 +84,18 @@ CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Ph
 CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Credit_Bureau,INSTITUTIONAL and FINANCIAL
 CRED-028,https://www.kaggle.com/datasets/saurabhbagchi/dish-network-hackathon,Default,INSTITUTIONAL and FINANCIAL
 CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,loan_id,UNCLASSIFIED
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, no_of_dependents,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, education,EDUCATIONAL
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, self_employed,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, income_annum,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_amount,INSTITUTIONAL and FINANCIAL
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_term,INSTITUTIONAL and FINANCIAL
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, cibil_score,INSTITUTIONAL and FINANCIAL
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, residential_assets_value,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, commercial_assets_value,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, luxury_assets_value,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, bank_asset_value,SOCIOECONOMIC
-CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset, loan_status,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,no_of_dependents,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,education,EDUCATIONAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,self_employed,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,income_annum,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,loan_amount,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,loan_term,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,cibil_score,INSTITUTIONAL and FINANCIAL
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,residential_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,commercial_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,luxury_assets_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,bank_asset_value,SOCIOECONOMIC
+CRED-031,https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset,loan_status,INSTITUTIONAL and FINANCIAL
 CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,rev_util,INSTITUTIONAL and FINANCIAL
 CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,age,DEMOGRAPHIC
 CRED-032,https://www.kaggle.com/datasets/adilshamim8/credit-risk-benchmark-dataset,late_30_59,INSTITUTIONAL and FINANCIAL

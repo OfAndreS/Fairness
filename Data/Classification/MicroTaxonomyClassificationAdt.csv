@@ -659,6 +659,7 @@ time_between_apps,application_interval_duration,ALTERNATIVE
 browser_fingerprint_change,device_fingerprint_change_indicator,ALTERNATIVE
 fraudulent,fraud_indicator,INSTITUTIONAL and FINANCIAL
 Payment_Method_description,payment_method,INSTITUTIONAL and FINANCIAL
+Payment_Method,payment_method,INSTITUTIONAL and FINANCIAL
 Amount,transaction_amount,INSTITUTIONAL and FINANCIAL
 Amount_Bins,transaction_amount,INSTITUTIONAL and FINANCIAL
 Zipcode,postal_code,ALTERNATIVE
